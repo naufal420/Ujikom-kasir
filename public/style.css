@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-link: #2d2f39;
+    --text-link: #8a8c91;
+    --text-link-hover: #c0c0c0;
+}
+
+.form-control::-webkit-input-placeholder {
+    font-size: 1.3rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.size-icon {
+    font-size: 1.5rem;
+}
+
+.bg-aside {
+    background-color: #161a23 !important;
+}
+
+.bg-header {
+    background-color: var(--bg-link);
+}
+
+.bg-link {
+    transition: 0.5s;
+}
+
+.bg-link:hover {
+    background-color: var(--bg-link);
+}
+
+.text-link {
+    color: var(--text-link);
+    transition: 0.5s;
+}
+
+.text-link:hover {
+    color: var(--text-link-hover);
+}
